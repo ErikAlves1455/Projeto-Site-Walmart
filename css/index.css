@@ -1,0 +1,727 @@
+body {background-color: #fff;margin:0;font-family: "Open Sans", sans-serif;}
+.clear {clear:both;}
+    /* Inicio Primeira Linha de Menu*/
+.logomenu>img {border-bottom:solid 2px #27408b;}
+
+.logomenu img {
+    width:19%;
+    height:7.8%;
+    float:left;
+}
+.ajuda {
+    float:left;
+    background-color:#1a75ce;
+    width:6.5%;
+    height:7.8%;
+    text-decoration:none;
+    list-style:none;
+    margin:0;
+    color:#fff;
+    border-bottom:solid 2px #27408b;
+}
+.ajuda img.iconeAjuda {
+    width:30px;
+    height:30px;
+    border-radius:15px;
+    float:left;
+    margin-top:15px;
+}
+.ajuda a {
+    float:left;
+    text-decoration:none;
+    color:#fff;
+    margin:22px 0 0 10px;
+}
+.ajuda a:hover {
+    color:#ff8c00;
+    transition:all 0.3s linear;
+}
+div#caixaAjuda2 {
+    width:300px;
+    height:355px;
+    position:absolute;
+    z-index:3;
+    margin-top:55px;
+    left:200px;
+    border-radius:5px;
+    background-color:#fff;
+    border:solid 1px rgb(223, 217, 217);
+    display:none;
+}
+.ajuda:hover div#caixaAjuda2 {
+    display:block;
+    transition:all linear 0.5s;
+}
+.caixaAjuda3 {
+    width:300px;
+    height:50px;
+    border-bottom:solid 1px rgb(223, 217, 217);
+}
+.caixaAjuda3 a {
+    color:#1874cd;
+}
+.caixaAjuda3 a img {
+    width:40px;
+    height:40px;
+    float:right;
+    margin:-15px 0 0 50px;
+}
+.caixaAjuda4 {
+    width:300px;
+    height:50px;
+    border-bottom:solid 1px rgb(223, 217, 217);
+}
+.caixaAjuda4 a.caixa11 {
+    color:#696969;
+}
+.caixaAjuda4 a.caixa12 {
+    color:#1874cd;
+    padding-left:25px;
+}
+.caixaAjuda5, .caixaAjuda6, .caixaAjuda7, .caixaAjuda8, .caixaAjuda9 {
+    width:300px;
+    height:50px;
+    border-radius:5px;
+    border-bottom:solid 1px rgb(223, 217, 217);
+}
+.caixaAjuda5 a {color:#1874cd;padding-left:20px;}
+.caixaAjuda6 a {color:#1874cd;padding-left:20px;}
+.caixaAjuda7 a {color:#1874cd;padding-left:20px;}
+.caixaAjuda8 a {color:#1874cd;padding-left:20px;}
+.caixaAjuda9 a {color:#1874cd;padding-left:20px;}
+
+.iconeNumeracao {
+    width:40px;
+    height:40px;
+    border-radius:20px;
+    border:solid 1px #1874cd;
+    float:left;
+    margin-top:5px;
+    margin-left:5px;
+    background-color:rgb(223, 217, 217);
+}
+.iconeNumeracao a {
+    color:#1874cd;
+    margin-top:15px;
+    padding-left:5px;
+}
+
+.barraPesquisa {
+    float:left;
+    width:40.2%;
+    height:7.8%;
+    background-color:#1a75ce;
+    border-bottom:solid 2px #27408b;
+}
+.intBarraPesquisa {
+    background-color:#fff;
+    width:90%;
+    height:70%;
+    border-radius:10px;
+    margin-left:8px;
+    margin-top:10px;
+    float:left;
+}
+.intBarraPesquisa a {
+    color:#696969;
+    float:left;
+    margin-left:20px;
+    margin-top:10px;
+    float:left;
+}
+.login {
+    float:left;
+    background-color:#1a75ce;
+    width:19%;
+    height:7.8%;
+    border-bottom:solid 2px #27408b;
+}
+.login img.iconeEntre {
+    width:30px;
+    height:30px;
+    float:left;
+    margin-top:10px;
+}
+.login a {
+    float:left;
+    text-decoration:none;
+    color:#fff;
+}
+.login a.entre {
+    margin:20px 15px 0 20px;
+    float:left;
+}
+.login a.entre:hover {
+    color:#ff8c00;
+    transition:all 0.3s linear;
+}
+.login a.cadastre {
+    margin:20px 0 0 15px;
+    color:#ffa500;
+    float:left;
+}
+.favoritos {
+    background-color:#1a75ce;
+    float:left;
+    width:7.8%;
+    height:7.8%;
+    color:#fff;
+    border-bottom:solid 2px #27408b;
+}
+.favoritos img {
+    width:40px;
+    height:40px;
+    margin-left:15px;
+    margin-top:5px;
+}
+.carrinho {
+    background-color:#ffa500;
+    float:left;
+    width:7.5%;
+    height:7.8%;
+    color:#fff;
+    border-bottom:solid 2px #ff8c00;
+}
+.carrinho img {
+    width:40px;
+    height:40px;
+    margin-left:25px;
+    margin-top: 5px;
+    border-radius:8px;
+}
+.carrinhoCheio a {
+    font-size:14px;
+}
+/* Fim Primeira Linha de Menu*/
+
+    /* Inicio Segunda Linha de Menu*/
+ul.menu {
+    margin-left:-40px;
+    margin-top:0;
+    list-style:none;
+    font-size:12px;
+    float:left;
+}
+ul.menu li.itemMenu {
+    border-right:solid 2px #0f0f7e;
+    list-style:none;
+    background-color:#195d9e;
+    width:8.475%;
+    height:60px;
+    border-bottom:solid 2px #ffa500;
+    float:left;
+}
+ul.menu li.itemMenu a:hover {
+    color:#ff8c00;
+    transition:all 0.3s linear;
+}
+ul.menu li.itemMenu div {
+    text-decoration:none;
+    color:#fff;
+    float:left;
+    padding-top:15px;
+}
+li.itemMenu {color:#fff;}
+
+ul.menu li.itemMenu:first-child {
+    width:22.25%;
+    font-size:14px;
+}
+ul.menu li.itemMenu:first-child:hover div.submenus {
+    display:block;
+    z-index:2;
+    transition:all 0.3s linear;
+}
+ul.menu li.itemMenu>a {
+    margin-left:30px;
+}
+.menuMoveiseDecoracao {
+    width:230px;
+}
+    /*Fim CSS Segunda Linha Menu*/
+        
+        /* Inicio CSS Submenu da parte "Veja Todos O Shopping*/
+div.submenus {
+    width:100%;
+    height:75%;
+    border-top:solid 1px #00ff00;
+    margin-top:31px;
+    display:none;
+    position:absolute;
+    box-shadow:2px 2px 2px #696969;
+    background-color:#fff;
+}
+ul.menu img.iconeVejaTodoShopping {
+    width:30px;
+    height:30px;
+    float:left;
+    border-radius:15px;
+    margin-left:50px;
+    margin-right:30px;
+}
+div.segundaLinhaMenus ul.menu li.itemMenu a {margin-left:15px;}
+
+div.segundaLinhaMenus ul.menu li.itemMenu .menuMoveiseDecoracao {margin-left:0;}
+
+div.submenus ul.submenu a {text-decoration:none;}
+
+span.titulo1 { font-size:25px;color:#ff00ff;}
+span.titulo2 { font-size:25px;color:#00ff00;}
+span.titulo3 { font-size:25px;color:#ffa500;}
+span.titulo4 { font-size:25px;color:#4169e1;}
+span.titulo5 { font-size:25px;color:#228b22;}
+span.titulo6 { font-size:25px;color:#551a8b;}
+
+ul.submenu li.itemSubmenu a {
+    color:#1874cd;
+    font-size:14px;
+    margin-top:10px;
+    float:left;
+}
+ul.submenu li.itemSubmenu img.logoMenuEsquerdaTecnologia, img.logoMenuEsquerdaCasa, img.logoMenuEsquerdaCultura, img.logoMenuEsquerdaAutomotivo, img.logoMenuEsquerdaEstilo, img.logoMenuEsquerdaBebes {
+    width:25px;
+    height:25px;
+    float:left;
+    border-radius:12.5px;
+}
+ul.submenu li.itemSubmenu img.logoMenuEsquerdaTecnologia {background-color:#ff00ff;border:solid 2px #ff00ff;}
+ul.submenu li.itemSubmenu img.logoMenuEsquerdaCasa {background-color:#00ff00;border:solid 2px #00ff00;}
+ul.submenu li.itemSubmenu img.logoMenuEsquerdaCultura {background-color:#ffa500;border:solid 2px #ffa500;}
+ul.submenu li.itemSubmenu img.logoMenuEsquerdaAutomotivo {background-color:#4169e1;border:solid 2px #4169e1;}
+ul.submenu li.itemSubmenu img.logoMenuEsquerdaEstilo {background-color:#228b22;border:solid 2px #228b22;}
+ul.submenu li.itemSubmenu img.logoMenuEsquerdaBebes {background-color:#551a8b;border:solid 2px #551a8b;}
+
+.submenu1 {width:232px;height:480px;float:left;margin-top:-25px;}
+.submenu2 {width:300px;height:480px;float:left;margin-top:-25px;}
+.submenu3 {width:350px;height:280px;float:left;margin-top:-25px;}
+.submenu4 {width:330px;height:289px;float:left;margin-top:20px;border-top:solid 1px #696969;}
+.submenu5 {width:330px;height:300px;float:left;margin-top:-25px;}
+.submenu6 {width:330px;height:241px;float:left;border-top:solid 1px #696969;}
+
+            /* Fim CSS Submenu da parte "Veja Todo O Shopping*/
+
+                /* Inicio CSS Submenu Restante da Segunda Linha*/
+div.subLinha2 {
+    position:absolute;
+}
+.subTveaudio, .subEletrodomesticos, .subInformatica, .subTelefonia {margin-left:-80px;}
+
+.subMoveiseDecoracao, .subEsporteelazer {margin-left:-330px;}
+
+.subBebesecriancas, .subAutomotivo {margin-left:-400px;}
+
+div.subTveaudio, div.subEletrodomesticos, div.subInformatica, div.subTelefonia, div.subEsporteelazer, div.subBebesecriancas, div.subMoveiseDecoracao, div.subAutomotivo {
+    display:none;
+    margin-top:-10px;
+    box-shadow:1px 2px 2px 2px #696969;
+    width:600px;
+    background-color:#fff;
+    position:absolute;
+    z-index:2;
+}
+
+ul.submenu li.itemSubmenu a.lista {
+    background-color:#ff8c00;
+    width:20px;
+    height:20px;
+    border-radius:10px;
+    float:left;
+}
+div.subTveaudio ul.submenu li.itemSubmenu {width:200px;height:380px;}
+div.subEletrodomesticos ul.submenu li.itemSubmenu {width:200px;height:380px;}
+div.subInformatica ul.submenu li.itemSubmenu {width:200px;height:380px;}
+div.subTelefonia ul.submenu li.itemSubmenu {width:200px;height:380px;}
+div.subEsporteelazer ul.submenu li.itemSubmenu {width:200px;height:380px;}
+div.subBebesecriancas ul.submenu li.itemSubmenu {width:200px;height:380px;}
+div.subMoveiseDecoracao ul.submenu li.itemSubmenu {width:200px;height:380px;}
+div.subAutomotivo ul.submenu li.itemSubmenu {width:200px;height:380px;}
+
+div.subTveaudio a.fundoLaranja {width:130px;height:25px;padding:5px 0 0 20px;}
+div.subEletrodomesticos a.fundoLaranja {width:130px;height:25px;padding:5px 0 0 20px;}
+div.subInformatica a.fundoLaranja {width:130px;height:25px;padding:5px 0 0 20px;}
+div.subTelefonia a.fundoLaranja {width:130px;height:25px;padding:5px 0 0 20px;}
+div.subEsporteelazer a.fundoLaranja {width:130px;height:25px;padding:5px 0 0 20px;}
+div.subBebesecriancas a.fundoLaranja {width:130px;height:25px;padding:5px 0 0 20px;}
+div.subMoveiseDecoracao a.fundoLaranja {width:130px;height:25px;padding:5px 0 0 20px;}
+div.subAutomotivo a.fundoLaranja {width:130px;height:25px;padding:5px 0 0 20px;}
+
+div.subTveaudio a.fundoLaranja:hover {background-color:#ffa500;color:#fff;}
+div.subEletrodomesticos a.fundoLaranja:hover {background-color:#ffa500;color:#fff;}
+div.subInformatica a.fundoLaranja:hover {background-color:#ffa500;color:#fff;}
+div.subTelefonia a.fundoLaranja:hover {background-color:#ffa500;color:#fff;}
+div.subEsporteelazer a.fundoLaranja:hover {background-color:#ffa500;color:#fff;}
+div.subBebesecriancas a.fundoLaranja:hover {background-color:#ffa500;color:#fff;}
+div.subMoveiseDecoracao a.fundoLaranja:hover {background-color:#ffa500;color:#fff;}
+div.subAutomotivo a.fundoLaranja:hover {background-color:#ffa500;color:#fff;}
+
+ul.menu li.itemMenu div.menuTveaudio:hover div.subTveaudio { display:block;}
+ul.menu li.itemMenu div.menuEletrodomesticos:hover div.subEletrodomesticos { display:block;}
+ul.menu li.itemMenu div.menuInformatica:hover div.subInformatica { display:block;}
+ul.menu li.itemMenu div.menuTelefonia:hover div.subTelefonia { display:block;}
+ul.menu li.itemMenu div.menuEsporteelazer:hover div.subEsporteelazer { display:block;}
+ul.menu li.itemMenu div.menuBebesecriancas:hover div.subBebesecriancas { display:block;}
+ul.menu li.itemMenu div.menuMoveiseDecoracao:hover div.subMoveiseDecoracao { display:block;}
+ul.menu li.itemMenu div.menuAutomotivo:hover div.subAutomotivo { display:block;}
+
+div.menuTveaudio img.iconeTvsAudio {width:40px;height:30px;margin-left:25%;}
+div.menuEletrodomesticos img.iconeEletrodomesticos {width:40px;height:30px;margin-left:25%;}
+div.menuInformatica img.iconeInformatica {width:40px;height:30px;margin-left:25%;}
+div.menuTelefonia img.iconeTelefonia {width:40px;height:30px;margin-left:25%;}
+div.menuEsporteeLazer img.iconeEsportes {width:40px;height:30px;margin-left:25%;}
+div.menuBebesecriancas img.iconeBebes {width:40px;height:30px;margin-left:25%;}
+div.menuMoveiseDecoracao img.iconeMoveis {width:40px;height:30px;margin-left:10%;}
+div.menuAutomotivo img.iconeAutomotivo {width:40px;height:30px;margin-left:25%;}
+
+div.imagemSubmenu2 {
+    width:300px;
+    height:350px;
+    margin-top:-410px;
+    margin-left:250px;
+    background-color:#fff;
+}
+div.imagemSubmenu2 a {
+    color:#1874cd;
+    font-size:18px;
+    border-bottom:dotted 7px #1874cd;
+}
+div.imagemSubmenu2 span {color:#696969;}
+
+div.imagemSubmenu2 img {
+    width:300px;
+    height:260px;
+    margin-top:10px;
+}
+div.botaoTodasAsLojas {
+    background-color:#fff;
+    color:#1874cd;
+    width:600px;
+    height:40px;
+}
+div.botaoTodasAsLojas a {
+    color:#1874cd;
+    font-size:18px;
+    padding-left:25%;
+}
+div.botaoTodasAsLojas a:hover {
+    color:#ff8c00;
+    transition:all 0.3s linear;
+}
+div.menuBebesecriancas .imagemSubmenu2 {margin-top:-390px;}
+div.menuMoveiseDecoracao .imagemSubmenu2 {margin-top:-390px;}
+div.menuBebesecriancas .imagemSubmenu2 img {height:230px;}
+div.menuMoveiseDecoracao .imagemSubmenu2 img {height:230px;}
+                /* Fim CSS Submenu Restante da Segunda Linha*/
+
+    /* Fim Segunda Linha de Menu*/
+
+/* Inicio CSS terceira Linha de Menus*/
+div.TerceiraLinhaMenu {
+    width:100%;
+    height:10%;
+    background-color:#ddd;
+    color:#1a75ce;
+    margin-top:64px;
+} 
+div.caixa1, div.caixa2, div.caixa3, div.caixa4 {
+    float:left;
+    width:24.9%;
+    border-right:solid 1px #696969;
+}
+div.caixa4 {
+    border-right:none;
+}
+a.linha1 {margin-left:30px;}
+a.linha2 {margin-left:30px;font-size:20px;}
+
+div.TerceiraLinhaMenu img {
+    float:left;
+    width:60px;
+    height:50px;
+    margin-left:5px;
+}
+/* Fim CSS terceira Linha de Menus*/
+    /*Inicio CSS Banner*/
+div.banner {
+    width:1345px;
+    height:350px;
+}
+div.banner img {
+    width:1345px;
+    height:350px;
+    border-bottom:solid 3px #ffa500;
+    position:absolute;
+}
+div.botoesBanner {
+    width:300px;
+    height:15px;
+    position:absolute;
+    z-index:1;
+    margin-left:900px;
+    margin-top:330px;
+}
+button.botaoBanner {
+    width:15px;
+    height:15px;
+    margin-right:5px;
+    background-color:#696969;
+    border-radius:7.5px;
+    float:right;
+}
+    /*Fim CSS Banner*/
+
+                /*Inicio CSS Rodapé*/
+
+    /*Inicio CSS Primeira Linha Rodapé*/
+div.AcompanhePedidos {
+    width:99%;
+    height:20.4%;
+    float:left;
+    background-color:#9b9a9a;
+}
+div.AcompanhePedidos img {
+    width:200px;
+    height:65px;
+    float:left;
+    margin-top:15px;
+    border-radius:5px;
+}
+div.AcompanhePedidos a {
+    margin-left:30%;
+    color:#1874cd;
+    font-size:20px;
+}
+div.AcompanhePedidos img.LogoGoogle {
+    margin-left:28%;
+}
+div.AcompanhePedidos img.LogoApple {
+    margin-left:20px;
+}
+div.AcompanhePedidos img.imagemFundoApp {
+    margin:0;
+    width:350px;
+    height:125px;
+    float:right;
+}
+    /*Fim CSS Primeira Linha Rodapé*/
+    /*Inicio CSS Segunda Linha Rodapé*/
+div.SegundaLinhaRodape>a {
+    margin-left:40%;
+    font-size:30px;
+    margin-top:10px;
+    margin-bottom:20px;
+    color:#696969;
+    float:left;
+}
+div.CaixaAjuda {
+    border:solid 1px #696969;
+    width:500px;
+    height:50px;
+    border-radius:5px;
+    float:left;
+    margin-left:15%;
+}
+div.CaixaAjuda>a {
+    color:#1874cd;
+    font-size:20px;
+    margin-left:20px;
+}
+div.CaixaAjuda>img {
+    float:right;
+    width:50px;
+    height:50px;
+    margin-top:-15px;
+}
+div.Contato {
+    margin-left:100px;
+    float:left;
+    width:300px;
+    height:50px;
+    border-radius:50px;
+    background-color:#1874cd;
+}
+div.contato:hover {
+    background-color:#1566b6;
+    cursor:pointer;
+    transition:all linear 0.3s;
+}
+div.Contato>a {
+    color:#fff;
+    margin-left:40%;
+    font-size:20px;
+}
+    /*Fim CSS Segunda Linha Rodapé*/
+        /*Inicio CSS Terceira Linha de Rodapé*/
+div.caixaDoCarrinho {
+    height:50px;
+    width:50px;
+    border-radius:25px;
+    border:solid 1px #1874cd;
+    margin-left:100px;
+    margin-top:10px;
+    float:left;
+}
+img.carrinho2 {
+    height:30px;
+    width:30px;
+    margin-left:10px;
+    margin-top:10px;
+}
+div.TerceiraLinhaRodape .linha1 {
+    color:#1874cd;
+    float:left;
+    margin-top:20px;
+}
+div.TerceiraLinhaRodape .linha2 {
+    float:left;
+    font-size:18px;
+}
+div.PaginaComeceAgora {
+    float:left;
+    height:50px;
+    width:300px;
+    border:solid 1px #1874cd;
+    border-radius:50px;
+    margin-top:-35px;
+    margin-left:100px;
+}
+div.PaginaComeceAgora a {
+    color:#1874cd;
+    margin-left:30%;
+}
+div.PaginaComeceAgora:hover {
+    border:solid 1px #ffa500;
+    cursor:pointer;
+    transition:all linear 0.3s;
+}
+div.PaginaComeceAgora:hover a {
+    color:#ffa500;
+    transition:all linear 0.3s;
+}
+        /*Fim CSS Terceira Linha de Rodapé*/
+            /*Inicio CSS Quarta Linha de Rodapé*/
+div.QuartaLinhaRodape {
+    margin:50px 0 0 50px;
+}
+div.QuartaLinhaRodape div.lista1, div.lista2, div.lista3, div.lista4, div.lista5 {
+    float:left;
+}
+div.QuartaLinhaRodape div.lista1, div.lista2, div.lista3, div.lista4, div.lista5 {
+    width:300px;
+    height:500px;
+}
+div.QuartaLinhaRodape div.lista4 {
+    height:300px;
+}
+div.lista1, div.lista2, div.lista3, div.lista4, div.lista5 a {
+    color:#1874cd;
+}
+div.lista1 a:hover {color:#ffa500;transition:all linear 0.3s;}
+div.lista2 a:hover {color:#ffa500;transition:all linear 0.3s;}
+div.lista3 a:hover {color:#ffa500;transition:all linear 0.3s;}
+div.lista4 a:hover {color:#ffa500;transition:all linear 0.3s;}
+div.lista5 a:hover {color:#ffa500;transition:all linear 0.3s;}
+
+
+div.lista1 a.titulo {color:#696969;}
+div.lista2 a.titulo {color:#696969;}
+div.lista3 a.titulo {color:#696969;}
+div.lista4 a.titulo {color:#696969;}
+div.lista5 a.titulo {color:#696969;}
+            /*Fim CSS Quarta Linha de Rodapé*/
+        /*Inicio CSS Quinta Linha de Rodapé*/
+div.QuintaLinhaRodape img {
+    width:200px;
+    height:30px;
+    margin-left:40%;
+    float:left;
+}
+div.redes {
+    margin-left:36%;
+    margin-top:20px;
+}
+div.redes img {
+    width:45px;
+    height:40px;
+    margin-left:2px;
+    margin-top:5px;
+    border-radius:20px;
+}
+div.logoFacebook, div.logoTwiter, div.logoGoogle, div.logoInstagram, div.logoYoutube {
+    width:50px;
+    height:50px;
+    border:solid 1px #1874cd;
+    float:left;
+    border-radius:25px;
+    margin-right:10px;
+}
+div.logoFacebook:hover {border:solid 1px #ffa500;transition:all linear 0.3s;}
+div.logoTwiter:hover {border:solid 1px #ffa500;transition:all linear 0.3s;}
+div.logoGoogle:hover {border:solid 1px #ffa500;transition:all linear 0.3s;}
+div.logoInstagram:hover {border:solid 1px #ffa500;transition:all linear 0.3s;}
+div.logoYoutube:hover {border:solid 1px #ffa500;transition:all linear 0.3s;}
+        /*Fim CSS Quinta Linha de Rodapé*/
+            /*Inicio CSS Linha Países*/
+div.paises {
+    margin-left:15%;
+    margin-top:20px;
+}
+div.paises a {
+    color:#1874cd;
+    margin-left:20px;
+    border-right:solid 1px #696969;
+    padding-right:30px;
+    text-decoration:none;
+}
+div.paises a:last-child {
+    border-right:none;
+}
+div.paises a:hover {
+    color:#ffa500;
+    transition:all linear 0.3s;
+}
+            /*Fim CSS Linha Países*/
+                /*Inicio CSS Informações*/
+div.informacoes {
+    margin-top:20px;
+}
+div.informacoes #linha1 {
+    color:#696969;
+    float:left;
+    text-align:center;
+    font-size:15px;
+}
+div.informacoes a#linha2 {
+    color:#696969;
+    font-size:14px;
+    float:left;
+    margin-left:30%;
+}
+                /*Fim CSS Informações*/
+                    /*Inicio CSS Formas de Pagamento*/
+div.formasPagamento {
+    margin-left:10%;
+    margin-top:10px;
+}
+div.formasPagamento a {
+    color:#696969;
+    margin-left:10%;
+}
+div.bandeirasCartoes img {
+    width:60px;
+    height:40px;
+    float:left;
+    margin-right:10px;
+}
+div.bandeiraSeguranca img {
+    width:80px;
+    height:40px;
+    float:left;
+    margin-right:10px;
+}
+div.certificadoSeguranca {
+    float:right;
+    margin-top:-30px;
+    margin-right:20%;
+}
+                    /*Fim CSS Formas de Pagamento*/
+/*Fim CSS Rodapé*/

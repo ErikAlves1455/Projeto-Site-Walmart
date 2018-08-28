@@ -1,0 +1,156 @@
+.loginBodyAzul {
+    width:1345px;
+    height:550px;
+    background-color:#1874cd;
+    position:absolute;
+    z-index:3;
+    margin-top:118px;
+    opacity:0.6;
+}
+.login2 {
+    width:400px;
+    height:530px;
+    background-color:#fff;
+    position:absolute;
+    z-index:4;
+    margin-left:30%;
+    margin-top:9%;
+    border-radius:5px;
+}
+.login2>a {
+    color:#696969;
+    font-size:30px;
+    text-align:center;
+    margin-left:70px;
+}
+.caixaEmail {
+    width:350px;
+    height:50px;
+    border:solid 1px #696969;
+    margin-left:20px;
+    margin-top:10px;
+    border-radius:3px;
+}
+.caixaEmail>a {
+    color:#696969;
+    margin-left:20px;
+}
+.caixaSenha {
+    width:350px;
+    height:50px;
+    border:solid 1px #696969;
+    margin-left:20px;
+    margin-top:10px;
+    border-radius:3px;
+}
+.caixaSenha>a {
+    color:#696969;
+    margin-left:20px;
+}
+.comandosLogin {
+    width:350px;
+    height:20px;
+    margin-left:20px;
+    margin-top:10px;
+}
+.comandosLogin .mantenhaConectado {
+    width:20px;
+    height:20px;
+    background-color: #1874cd;
+    float:left;
+}
+.comandosLogin a.primeiro {
+    font-size:13px;
+    padding-top:2px;
+    color:#696969;
+    margin-left:5px;
+    float:left;
+}
+.comandosLogin span.segundo {
+    width:20px;
+    height:20px;
+    border: solid 0.5px#1874cd;
+    border-radius:10px;
+    margin-left:5px;
+    float:left;
+}
+.comandosLogin span.segundo a {
+    color:#1874cd;
+    margin-left:5px;
+}
+.comandosLogin a.esqueciSenha {
+    color:#1874cd;
+    float:right;
+    font-size:13px;
+    padding-top:2px;
+}
+.login2 a.entrar {
+    width:190px;
+    height:30px;
+    background-color:#1874cd;
+    float:left;
+    margin-top:20px;
+    border-radius:20px;
+    color:#fff;
+    font-size:18px;
+    padding-left:150px;
+    padding-top:15px;
+}
+.login2 span.divisao1 {
+    border:solid 1px #696969;
+    background-color:#696969;
+    width:100px;
+    height:1px;
+    margin-top:20px;
+    float:left;
+}
+.login2 span.divisao2 {
+    border:solid 1px #696969;
+    background-color:#696969;
+    width:100px;
+    height:1px;
+    margin-top:20px;
+    float:right;
+}
+.login2 a.teste {
+    float:left;
+    color:#696969;
+    margin-top:10px;
+    margin-left:60px;
+}
+.login2 a.entrarFace {
+    width:270px;
+    height:30px;
+    background-color:#064788;
+    float:left;
+    margin-top:20px;
+    border-radius:20px;
+    color:#fff;
+    font-size:15px;
+    padding-left:80px;
+    padding-top:15px;
+}
+.login2 .informacoes {
+    width:350px;
+    height:50px;
+    float:left;
+    padding-top:20px;
+}
+.login2 .informacoes a {
+    color:#696969;
+    font-size:14px;
+}
+.login2 a.clienteNovo {
+    color:#696969;
+    float:left;
+    padding-top:30px;
+    margin-left:100px;
+    font-size:18px;
+}
+.login2 a.cadastreAgora {
+    color:#1874cd;
+    float:left;
+    font-size:22px;
+    margin-left:80px;
+    padding-top:10px;
+}
